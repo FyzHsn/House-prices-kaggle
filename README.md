@@ -9,3 +9,4 @@ Exploratory Data Analysis
 ### Sale price distribution
 Here, we look at the distribution of the sale prices of the house. The log transformed sale price (it seems to be more 'normal') is also shown.  
 ![](https://github.com/FyzHsn/House-prices-kaggle/blob/master/Figs/PriceDistribution.png?raw=true)  
+Since regression works best on unskewed normal datasets, we will consider applying log transforms to reduce the skewness of the feature vectors.  
