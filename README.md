@@ -10,3 +10,9 @@ Exploratory Data Analysis
 Here, we look at the distribution of the sale prices of the house. The log transformed sale price (it seems to be more 'normal') is also shown.  
 ![](https://github.com/FyzHsn/House-prices-kaggle/blob/master/Figs/PriceDistribution.png?raw=true)  
 Since regression works best on unskewed normal datasets, we will consider applying log transforms to reduce the skewness of the feature vectors.  
+
+Linear Regression Model
+-----------------------
+
+### saleprice vs overallqual
+We apply single variable linear regression to `overallqual` and `saleprice`. `overallqual` has the highest correlation with `saleprice` with a value of 0.82. The second highest is `grlivarea` with a correlation value of 0.73.
